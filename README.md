@@ -1,5 +1,6 @@
 #ElGamal-Cracker
 
+###Introduction
 An ElGamal Cracker used to retrieve the encrypted message.
 
 This code takes in the Public Key and Ciphers in Space seperated command line input and uses BigInteger's to do all of the calculations.
@@ -41,3 +42,7 @@ private static BigInteger findMessage(BigInteger p, BigInteger x, BigInteger C1,
 
 }
 ```
+
+###Future Plans
+
+I plan to enhance the algorithm to accept Bigger Private Keys and Ciphers by implementing a Baby Steps Giant Steps approach and allowing the Private Keys and Ciphers to be read in from a .txt file and outputted to a text file.
